@@ -15,3 +15,10 @@ This project is a simple UI clone of a video streaming platform (such as YouTube
 - **HTML**: Used to structure the content of the webpage.
 - **CSS**: For styling and creating the responsive design. The layout uses **Flexbox** and **CSS Grid**.
 - **Responsive Design**: The project adapts to different screen sizes using **media queries**.
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/video-streaming-ui-clone.git
