@@ -1,29 +1,39 @@
+/* Sidebar Styling */
 .side-bar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    top: 55px;
-    width: 90px;
-    background-color: white;
-    z-index: 2;
-    padding-top: 5px;
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  width: 90px;
+  background-color: white;
+  z-index: 2;
+  padding-top: 5px;
 }
+
+/* Sidebar Links */
 .sidebar-link {
-    height: 76px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
-    cursor: pointer;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
+
+/* Hover Effect for Sidebar Links */
 .sidebar-link:hover {
-    background-color: rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
 }
+
+/* Image inside Sidebar Links */
 .sidebar-link img {
-    height: 35px;
-    margin-bottom: 8px;
+  height: 35px;
+  margin-bottom: 8px;
 }
+
+/* Text inside Sidebar Links */
 .sidebar-link div {
-    font-size: 12px;
+  font-size: 12px;
 }

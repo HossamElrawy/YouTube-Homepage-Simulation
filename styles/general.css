@@ -1,16 +1,29 @@
+/* Universal Box Sizing & Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 80px 24px 0 95px;
-    background-color: rgb(248, 248, 248);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 80px 24px 0 95px;
+  background-color: rgb(248, 248, 248);
 }
+
+/* Paragraph Styling */
 p {
-    margin: 0;
+  margin: 0;
 }
+
+/* Link Styling */
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
+
+/* Span Styling */
 span {
-    font-size: 12px;
+  font-size: 12px;
 }

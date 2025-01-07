@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YouTube Homepage Simulation</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A simulation of YouTube's homepage, showcasing videos and channels."
+    />
+    <meta name="keywords" content="YouTube,video" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-icon.svg" alt="menu" />
+        <a href="https://www.youtube.com/">
+          <img
+            class="youtube-logo"
+            src="icons/youtube-icon.svg"
+            alt="Youtube logo"
+          />
+        </a>
+      </h1>
+      <h2 class="middle-section">
+        <label for="search-bar" class="visually-hidden"></label>
+        <input
+          class="search-bar"
+          id="search-bar"
+          type="text"
+          placeholder="Search"
+        />
+        <button class="search-button">
+          <span class="tool-tip">Search</span>
+          <img
+            class="search-icon"
+            src="icons/search-icon.svg"
+            alt="Search icon"
+          />
+        </button>
+        <button class="voice-search" aria-label="Search with you voice">
+          <span class="tool-tip">Search with your voice</span>
+          <img
+            class="voice-icon"
+            src="icons/voice-search-icon.svg"
+            alt="Voice search icon"
+          />
+        </button>
+      </h2>
+      <h3 class="right-section">
+        <span class="upload-container">
+          <span class="tool-tip">Create</span>
+          <img
+            class="upload-icon"
+            src="icons/upload-icon.svg"
+            alt="Upload video"
+          />
+        </span>
+        <span class="app-con">
+          <span class="tool-tip">Apps</span>
+          <img class="app-icon" src="icons/apps-icon.svg" alt="Apps icon" />
+        </span>
+        <span class="not-con">
+          <span class="not-coun"> 3 </span>
+          <span class="tool-tip">Notifications</span>
+          <img
+            class="notification-icon"
+            src="icons/notification-icon.svg"
+            alt="Notification center"
+          />
+        </span>
+        <a href="https://www.youtube.com/@SuperSimpleDev">
+          <img
+            class="user-picture"
+            src="pictures/thumbnail-0.webp"
+            alt="Thumbnail for Teacher's YouTube channel"
+          />
+        </a>
+      </h3>
+    </header>
+    <!-- This is the side bar section -->
+    <nav class="side-bar">
+      <div class="sidebar-link">
+        <img src="icons/home-icon.svg" alt="Home page" />
+        <span>Home</span>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore-icon.svg" alt="Explore page" />
+        <span>Explore</span>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscription-icon.svg" alt="Subsriptions page" />
+        <span>Subscriptions</span>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/music-icon.svg" alt="YouTube Music page" />
+        <span>YouTube Music</span>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library-icon.svg" alt="YouTube Library" />
+        <span>Library</span>
+      </div>
+    </nav>
+    <main>
+      <!-- This is the main content of the page -->
+      <div class="video-info-grid">
+        <!-- This is the 1st video preview section -->
+        <div class="video-preview">
+          <!-- This is The video picture section -->
+          <div class="thumbnail-row">
+            <div class="video-time">22:45</div>
+            <a href="https://www.youtube.com/watch?v=0BjlBnfHcHM">
+              <img
+                class="video-picture"
+                src="pictures/thumbnail-1.webp"
+                alt="Thumbnail for MrBeast video"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <!-- This is the video and channel info section -->
+          <div class="video-grid">
+            <!-- This is the channel info section -->
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MrBeast">
+                <div class="hover-con">
+                  <div class="show-con">
+                    <img
+                      class="picture-channel"
+                      src="pictures/thumbnail-2.webp"
+                      alt="Thumbnail for MrBeast channel"
+                    />
+                    <div>
+                      <p class="channel-owner">MrBeast</p>
+                      <p class="subscribers-number">341M subscribers</p>
+                    </div>
+                  </div>
+                  <img
+                    class="profile-picture"
+                    src="pictures/thumbnail-2.webp"
+                    alt="Thumbnail for MrBeast channel"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- This is the video info section -->
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=0BjlBnfHcHM">
+                  Beat Ronaldo, Win $1,000,000
+                </a>
+              </p>
+              <p class="video-author">MrBeast</p>
+              <p class="video-stats">186M views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- This is the 2nd video preview -->
+        <div class="video-preview">
+          <!-- This is The video picture section -->
+          <div class="thumbnail-row">
+            <div class="video-time">2:56</div>
+            <a href="https://www.youtube.com/watch?v=At8v_Yc044Y">
+              <img
+                class="video-picture"
+                src="pictures/thumbnail-3.webp"
+                alt="Thumbnail for KSI video"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <!-- This is the video and channel info section -->
+          <div class="video-grid">
+            <!-- This is the channel info section -->
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/channel/UCVtFOytbRpEvzLjvqGG5gxQ"
+              >
+                <div class="hover-con">
+                  <div class="show-con">
+                    <img
+                      class="picture-channel"
+                      src="pictures/thumbnail-4.webp"
+                      alt="Thumbnail for KSI channel"
+                    />
+                    <div>
+                      <p class="channel-owner">KSI</p>
+                      <p class="subscribers-number">25M subscribers</p>
+                    </div>
+                  </div>
+                  <img
+                    class="profile-picture"
+                    src="pictures/thumbnail-4.webp"
+                    alt="Thumbnail for KSI channel"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- This is the video info section -->
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=At8v_Yc044Y">
+                  KSI - Thick Of It (feat. Trippie Redd) [Official Music Video]
+                </a>
+              </p>
+              <p class="video-author">KSI</p>
+              <p class="video-stats">93M views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- This is the 3rd video preview -->
+        <div class="video-preview">
+          <!-- This is The video picture section -->
+          <div class="thumbnail-row">
+            <div class="video-time">19:17</div>
+            <a href="https://www.youtube.com/watch?v=gfMSc5KN37c">
+              <img
+                class="video-picture"
+                src="pictures/thumbnail-5.webp"
+                alt="Thumbnail for SSundee video"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <!-- This is the video and channel info section -->
+          <div class="video-grid">
+            <!-- This is the channel info section -->
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@SSundee">
+                <div class="hover-con">
+                  <div class="show-con">
+                    <img
+                      class="picture-channel"
+                      src="pictures/thumbnail-6.webp"
+                      alt="Thumbnail for SSundee channel"
+                    />
+                    <div>
+                      <p class="channel-owner">SSundee</p>
+                      <p class="subscribers-number">24.5M subscribers</p>
+                    </div>
+                  </div>
+                  <img
+                    class="profile-picture"
+                    src="pictures/thumbnail-6.webp"
+                    alt="Thumbnail for SSundee channel"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- This is the video info section -->
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=gfMSc5KN37c">
+                  SSundee Got Hacked in Among Us
+                </a>
+              </p>
+              <p class="video-author">SSundee</p>
+              <p class="video-stats">1.9M views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- This is the 4th video preview -->
+        <div class="video-preview">
+          <!-- This is The video picture section -->
+          <div class="thumbnail-row">
+            <div class="video-time">23:31</div>
+            <a href="https://www.youtube.com/watch?v=Bot7ouL1twM">
+              <img
+                class="video-picture"
+                src="pictures/thumbnail-7.webp"
+                alt="Thumbnail for Markiplier video"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <!-- This is the video and channel info section -->
+          <div class="video-grid">
+            <!-- This is the channel info section -->
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@markiplier">
+                <div class="hover-con">
+                  <div class="show-con">
+                    <img
+                      class="picture-channel"
+                      src="pictures/thumbnail-8.webp"
+                      alt="Thumbnail for Markiplier channel"
+                    />
+                    <div>
+                      <p class="channel-owner">Markiplier</p>
+                      <p class="subscribers-number">37.2M subscribers</p>
+                    </div>
+                  </div>
+                  <img
+                    class="profile-picture"
+                    src="pictures/thumbnail-8.webp"
+                    alt="Thumbnail for Markiplier channel"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- This is the video info section -->
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=Bot7ouL1twM">
+                  INVITATIONEM
+                </a>
+              </p>
+              <p class="video-author">Markiplier</p>
+              <p class="video-stats">4.5M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- This is the 5th video preview -->
+        <div class="video-preview">
+          <!-- This is The video picture section -->
+          <div class="thumbnail-row">
+            <div class="video-time">44:32</div>
+            <a href="https://www.youtube.com/watch?v=qNKA9Q60K10">
+              <img
+                class="video-picture"
+                src="pictures/thumbnail-9.webp"
+                alt="Thumbnail for How To Beat video"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <!-- This is the video and channel info section -->
+          <div class="video-grid">
+            <!-- This is the channel info section -->
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@HowToBeatYT">
+                <div class="hover-con">
+                  <div class="show-con">
+                    <img
+                      class="picture-channel"
+                      src="pictures/thumbnail-10.webp"
+                      alt="Thumbnail for How To Beat channel"
+                    />
+                    <div>
+                      <p class="channel-owner">How To Beat</p>
+                      <p class="subscribers-number">2.74M subscribers</p>
+                    </div>
+                  </div>
+                  <img
+                    class="profile-picture"
+                    src="pictures/thumbnail-10.webp"
+                    alt="Thumbnail for How To Beat channel"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- This is the video info section -->
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=qNKA9Q60K10">
+                  How To Beat Every DEATH GAME In "SQUID GAME"
+                </a>
+              </p>
+              <p class="video-author">How To Beat</p>
+              <p class="video-stats">34M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- This is the 6th video preview -->
+        <div class="video-preview">
+          <!-- This is The video picture section -->
+          <div class="thumbnail-row">
+            <div class="video-time">16:37</div>
+            <a href="https://www.youtube.com/watch?v=3Rs9GIGdm-0">
+              <img
+                class="video-picture"
+                src="pictures/thumbnail-11.webp"
+                alt="Thumbnail for The Film Theorists video"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <!-- This is the video and channel info section -->
+          <div class="video-grid">
+            <!-- This is the channel info section -->
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@FilmTheory/videos">
+                <div class="hover-con">
+                  <div class="show-con">
+                    <img
+                      class="picture-channel"
+                      src="pictures/thumbnail-12.webp"
+                      alt="Thumbnail for The Film Theorists channel"
+                    />
+                    <div>
+                      <p class="channel-owner">The Film Theorists</p>
+                      <p class="subscribers-number">13.3M subscribers</p>
+                    </div>
+                  </div>
+                  <img
+                    class="profile-picture"
+                    src="pictures/thumbnail-12.webp"
+                    alt="Thumbnail for The Film Theorists channel"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- This is the video info section -->
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=3Rs9GIGdm-0">
+                  Film Theory: John Wick Literally CAN’T DIE!
+                </a>
+              </p>
+              <p class="video-author">The Film Theorists</p>
+              <p class="video-stats">2.9M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
